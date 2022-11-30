@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6131118520411697467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6131118520411697465}
+  - component: {fileID: 6131118520411697466}
+  m_Layer: 0
+  m_Name: Powerup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6131118520411697465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6131118520411697467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.1207879, y: 4.524581, z: -287.84067}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6131118520411697466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6131118520411697467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7acd04c992b684888763999fdad24b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icons:
+  - {fileID: 21300000, guid: 29fd35401f6493d419f18cc7aaf50f25, type: 3}
+  - {fileID: 21300000, guid: 92f1d3c41c882d44db48613927c1a80b, type: 3}
+  - {fileID: 21300000, guid: d65db5ed8bbd4b740bde84fc1bc112d1, type: 3}
+  AbilityPlaceHolder: {fileID: 6542913600369702426, guid: 27410a3b792ad8640b44468b635d7f82, type: 3}
+  isPowerupActive: 0
+  spawnPowerUp: 1
+  blocks: []
+  ballPrefab: {fileID: 5008036276789688514, guid: f9a7432f433e986449b47bec3b648880, type: 3}
+  powerup1Duration: 10
+  powerup2Duration: 10
+  isMultipleBalls: 0
